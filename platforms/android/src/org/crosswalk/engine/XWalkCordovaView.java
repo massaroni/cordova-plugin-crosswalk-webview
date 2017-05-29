@@ -90,7 +90,6 @@ public class XWalkCordovaView extends XWalkView implements CordovaWebViewEngine.
     // Call CordovaInterface to start activity for result to make sure
     // onActivityResult() callback will be triggered from CordovaActivity correctly.
     // Todo(leonhsl) How to handle |options|?
-    @Override
     public void startActivityForResult(Intent intent, int requestCode, Bundle options) {
         parentEngine.cordova.startActivityForResult(new CordovaPlugin() {
             @Override

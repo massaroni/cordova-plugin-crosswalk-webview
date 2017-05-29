@@ -234,8 +234,8 @@ public class XWalkWebViewEngine implements CordovaWebViewEngine {
 
         for (String path : extList) {
             // Load the extension.
-            Log.i(TAG, "Start to load extension: " + path);
-            webView.getExtensionManager().loadExtension(XWALK_EXTENSIONS_FOLDER + File.separator + path);
+            //Log.i(TAG, "Start to load extension: " + path);
+            //webView.getExtensionManager().loadExtension(XWALK_EXTENSIONS_FOLDER + File.separator + path);
         }
     }
 
